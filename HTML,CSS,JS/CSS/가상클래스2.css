@@ -1,0 +1,22 @@
+.fruits span:first-child{
+  color: red;
+}
+/* .fruits div:first-child{
+  color: blue;
+} (선택이 되지않음)*/
+
+.fruits h3:last-child{
+  color: aquamarine;
+}
+
+/* .fruits *:nth-child(2n){
+  color: blueviolet;
+}  (짝수)
+
+.fruits *:nth-child(2n+1){
+  color: blueviolet;
+}  (홀수) */
+
+.fruits *:not(span){
+  color: olivedrab;
+}
