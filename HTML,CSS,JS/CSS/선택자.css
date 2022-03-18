@@ -1,0 +1,23 @@
+/* 전체 선택자: *을사용
+*{
+  color: red;
+} 
+*/
+/* 태그선택자: 태그이름사용, 클래스선택자: .을사용, ID선택자: #을사용 */
+/* 복합선택자 ( 태그+클래스)*/
+span.orange {
+  color: orange;
+}
+/* 자식선택자 앞에서부터 찾는다*/
+ul >.orange{
+  color: red;
+}
+/* 하위선택자 뒤에서부터 찾는다*/
+div .orange{
+  color: blue;
+}
+/* 인접 형태 선택자 (앞의 다음 형제 요소 하나를 선택)*/
+.orange + li{
+  color: blueviolet;
+}
+/* .orange ~ li 를 쓰게되면 다음으로부터 모두에게 해당됌 */
