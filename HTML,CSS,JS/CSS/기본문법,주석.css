@@ -1,0 +1,14 @@
+/* 주석 설명 작성 */
+div{
+  font-size: 50px;
+  color: blue;
+  text-decoration: underline;
+  margin: 20px;
+  
+}
+
+span{
+  font-size: 30px;
+  color: aquamarine;
+  text-decoration: dotted;
+}
