@@ -1,0 +1,25 @@
+.box::before{
+  content: "앞!";
+}
+
+.box::after{
+  content: "뒤!";
+}
+
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.box2::before{
+  content: "Before";
+}
+
+.box2::after{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: royalblue;
+}
