@@ -1,0 +1,25 @@
+div{
+  color: red !important; /*중요성이제일높음 우선순위제일빠름*/
+}
+
+#color_yellow{
+  color: yellow;  /*우선순위 두번째*/
+}
+
+.color_green{
+  color: green; /*우선순위 세번째*/
+}
+
+div{
+  color: blue; /*우선순위 네번째*/
+}
+
+*{ 
+  color: darkblue; /*우선순위 다섯번째*/
+}
+
+body{
+  color: violet; /*우선순위 없음 상속자체를 안함*/
+}
+
+/*인라인선언을이기는것은 !important밖에없음*/
