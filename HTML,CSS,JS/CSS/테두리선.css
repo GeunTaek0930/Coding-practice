@@ -1,0 +1,10 @@
+.container .item{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.container .item:first-child{
+  border: 10px solid orange;
+  /* border: 4px; dashed red; */
+}
