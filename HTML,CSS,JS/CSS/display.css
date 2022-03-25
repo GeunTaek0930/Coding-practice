@@ -1,0 +1,12 @@
+body {
+  margin: 20px;
+}
+
+span {
+  display: block;
+  /* display: none; */
+  width: 120px;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+}
