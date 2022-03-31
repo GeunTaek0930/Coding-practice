@@ -1,0 +1,16 @@
+.container {
+  background-color: royalblue;
+  /* display: block; 수직정렬  */
+  display: flex; /*수평정렬 */
+  /* flex-direction: column;
+  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-direction: row-reverse; */
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+}
