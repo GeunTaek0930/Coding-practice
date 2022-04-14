@@ -14,4 +14,3 @@ console.log(a);
 a = 999;
 console.log(a)
 */
-
