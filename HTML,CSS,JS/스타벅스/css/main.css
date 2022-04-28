@@ -59,7 +59,8 @@ a {
 
 .btn.btn--brown:hover {
   color: #fff;
-  background-color: #592B18;}
+  background-color: #592B18;
+}
 
 .btn.btn--gold {
   color: #D9AA8A;
@@ -332,4 +333,8 @@ header .badges .badge {
   position: absolute;
   bottom: 0;
   left: 275px;
+}
+
+.visual .fade-in {
+  opacity: 0;
 }
